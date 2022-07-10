@@ -1,0 +1,45 @@
+{
+  "name": "fontend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "yarn run lint:eslint && yarn run lint:stylelint",
+    "lint:eslint": "eslint --fix --ext .vue,.js,.jsx,.ts,.tsx ./src",
+    "lint:stylelint": "stylelint 'src/**/*.{vue,scss,css}' --fix"
+  },
+  "dependencies": {
+    "@better-scroll/core": "^2.4.2",
+    "@mapbox/stylelint-processor-arbitrary-tags": "^0.4.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "axios": "^0.27.2",
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^9.1.1",
+    "js-audio-recorder": "^1.0.7",
+    "localforage": "^1.10.0",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.9.1",
+    "stylelint-config-html": "^1.0.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^26.0.0",
+    "stylelint-order": "^5.0.0",
+    "swiper": "^8.3.0",
+    "vant": "^4.0.0-alpha.4",
+    "vite": "^2.9.9",
+    "vue": "^3.2.37",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-prettier": "^2.0.0",
+    "unplugin-vue-components": "^0.19.6"
+  }
+}

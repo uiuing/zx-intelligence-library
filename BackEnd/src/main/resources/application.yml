@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: WisdomBooks
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://<host>/<database>?serverTimezone=UTC
+      username: <username>
+      password: <password>
+  redis:
+    host: <host>
+    port: <port>
+    password: <password>
+    database: <database>
+
+
+server:
+  port: <server-port>
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    global-config:
+      dbConfig:
+        logicDeleteValue: 1
+        logicNotDeleteValue: 0
+        logicDeleteField: if_del
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+aliyun:
+  oss:
+    file:
+      endpoint: <endpoint>
+      keyid: <keyid>
+      keysecret: <keysecret>
+      bucketname: <bucketname>
