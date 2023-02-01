@@ -1,4 +1,4 @@
-# 已停止服务，仅2022参赛作品存档
+# 已停止服务，仅存档
 
 ![image](https://user-images.githubusercontent.com/73827386/178150555-8e2f7339-2dd0-40e6-a881-98a5d56372e2.png)
 
